@@ -58,9 +58,18 @@ python cookbook/01-gemini-api/example.py
 
 ---
 
+## Como cada receita funciona
+
+Toda pasta em `cookbook/` segue o mesmo padrão, pensado para ser **copiado e testado em minutos**:
+
+- **`README.md`** — o que a skill faz, como instalá-la e **o prompt exato** pra colar no Claude/Cursor.
+- **`example.py`** — exemplo curto e autocontido que **roda local e de graça** (com modo mock / DuckDB
+  quando o serviço real exigiria conta GCP).
+- **dados de exemplo** (`vendas.csv`, `sample_ga4.json`, `queries.sql`, `bqml.sql`).
+
 ## Estrutura
 
-```
+```text
 .
 ├── README.md
 ├── requirements.txt
@@ -74,6 +83,14 @@ python cookbook/01-gemini-api/example.py
     └── 04-analytics-data-api/
 ```
 
+## Explore mais
+
+Este cookbook foca em **4 skills de dados/ML**. O repositório
+[`google/skills`](https://github.com/google/skills) tem **65 no total** — incluindo Cloud Run, Firebase,
+GKE, Cloud SQL/AlloyDB/Bigtable, Vertex AI / Agent Platform, Google Ads, Mobile Ads e o Well-Architected
+Framework. A maioria das demais exige conta GCP com faturamento ou contas de anúncios aprovadas, por isso
+ficaram fora daqui — mas instalam do mesmo jeito (`npx skills add google/skills`).
+
 ## Licença
 
-MIT.
+MIT — veja [LICENSE](LICENSE).
