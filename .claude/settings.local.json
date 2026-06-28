@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit -q -m 'chore: estrutura inicial do cookbook de Google Skills *)",
+      "Bash(git push *)"
+    ]
+  }
+}
