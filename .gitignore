@@ -20,3 +20,7 @@ env/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Config local de agentes (Claude Code / Cursor)
+.claude/
+.cursor/
