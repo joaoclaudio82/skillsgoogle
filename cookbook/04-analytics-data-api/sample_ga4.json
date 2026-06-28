@@ -1,0 +1,18 @@
+{
+  "dimensionHeaders": [
+    { "name": "sessionDefaultChannelGroup" }
+  ],
+  "metricHeaders": [
+    { "name": "sessions", "type": "TYPE_INTEGER" },
+    { "name": "activeUsers", "type": "TYPE_INTEGER" },
+    { "name": "conversions", "type": "TYPE_INTEGER" }
+  ],
+  "rows": [
+    { "dimensionValues": [{ "value": "Organic Search" }], "metricValues": [{ "value": "5400" }, { "value": "4200" }, { "value": "180" }] },
+    { "dimensionValues": [{ "value": "Direct" }], "metricValues": [{ "value": "3100" }, { "value": "2750" }, { "value": "96" }] },
+    { "dimensionValues": [{ "value": "Paid Search" }], "metricValues": [{ "value": "2200" }, { "value": "1980" }, { "value": "143" }] },
+    { "dimensionValues": [{ "value": "Social" }], "metricValues": [{ "value": "1850" }, { "value": "1600" }, { "value": "52" }] },
+    { "dimensionValues": [{ "value": "Referral" }], "metricValues": [{ "value": "940" }, { "value": "820" }, { "value": "30" }] },
+    { "dimensionValues": [{ "value": "Email" }], "metricValues": [{ "value": "610" }, { "value": "560" }, { "value": "48" }] }
+  ]
+}
