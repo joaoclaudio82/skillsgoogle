@@ -1,0 +1,17 @@
+data,produto,categoria,quantidade,preco_unitario,receita
+2026-01-05,Notebook Pro,Eletronicos,3,4500.00,13500.00
+2026-01-09,Mouse Sem Fio,Acessorios,20,80.00,1600.00
+2026-01-14,Teclado Mecanico,Acessorios,12,320.00,3840.00
+2026-01-20,Monitor 24,Eletronicos,7,950.00,6650.00
+2026-01-27,Notebook Pro,Eletronicos,2,4500.00,9000.00
+2026-02-03,Mouse Sem Fio,Acessorios,35,80.00,2800.00
+2026-02-08,Teclado Mecanico,Acessorios,18,320.00,5760.00
+2026-02-12,Monitor 24,Eletronicos,9,950.00,8550.00
+2026-02-19,Notebook Pro,Eletronicos,5,4500.00,22500.00
+2026-02-24,Mouse Sem Fio,Acessorios,28,80.00,2240.00
+2026-03-02,Teclado Mecanico,Acessorios,22,320.00,7040.00
+2026-03-07,Monitor 24,Eletronicos,11,950.00,10450.00
+2026-03-13,Notebook Pro,Eletronicos,6,4500.00,27000.00
+2026-03-18,Mouse Sem Fio,Acessorios,40,80.00,3200.00
+2026-03-25,Teclado Mecanico,Acessorios,25,320.00,8000.00
+2026-03-30,Monitor 24,Eletronicos,14,950.00,13300.00
