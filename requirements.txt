@@ -1,0 +1,18 @@
+# Dependencias do cookbook (tudo roda local e gratis)
+
+# SDK novo e unificado do Gemini (Gemini Developer API + Vertex AI).
+# A skill `gemini-api` exige este pacote (NAO use o legado google-generativeai).
+google-genai>=1.0.0
+
+# "Data warehouse" local usado como stand-in do BigQuery nas receitas (mesmo SQL).
+duckdb>=1.0.0
+
+# Manipulacao de dados.
+pandas>=2.0.0
+
+# Carrega variaveis do arquivo .env (GOOGLE_API_KEY, GEMINI_MODEL).
+python-dotenv>=1.0.0
+
+# --- Opcionais: clientes reais do Google Cloud (descomente para usar de verdade) ---
+# google-cloud-bigquery>=3.0.0        # receita 02 e 03 (BigQuery real)
+# google-analytics-data>=0.18.0       # receita 04 (Google Analytics Data API real)
